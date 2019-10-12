@@ -1,17 +1,12 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
-type FooProps = {
-
-};
+type FooProps = {};
 
 const Foo: React.FC<FooProps> = props => {
-  return (
-    <StyledFoo>
-    </StyledFoo>
-  );
+  return <StyledFoo></StyledFoo>;
 };
 
-const StyledFoo= styled.div``;
+const StyledFoo = styled.div``;
 
 export default Foo;
