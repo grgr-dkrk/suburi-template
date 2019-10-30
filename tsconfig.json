@@ -15,7 +15,7 @@
     "resolveJsonModule": true,
     "experimentalDecorators": true,
     "paths": {
-      "@/*": ["*"]
+      "~/*": ["*"]
     }
   },
   "include": ["./src/**/*"],
